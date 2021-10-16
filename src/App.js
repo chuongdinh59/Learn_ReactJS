@@ -1,17 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-
+import TodoFeature from "./features/todoApp";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Đình Chương
-        </p>
-      </header>
-    </div>
+    <TodoFeature />
   );
 }
-
 export default App;
