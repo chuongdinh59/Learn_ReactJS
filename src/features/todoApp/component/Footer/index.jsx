@@ -10,9 +10,7 @@ Footer.defaultProps = {
 };
 
 function Footer({ todos, removeCheck, handleAll, handleActive, handleCompleted }) {
-    function handleRemoveCheck() {
 
-    }
     return (
         <footer className="footer">
             <span className="todo-count"><strong>{
