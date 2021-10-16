@@ -52,8 +52,9 @@ function TodoFeature(props) {
     }
     const removeComplete = () => {
         const newList = [...todos]
-        setTodos(newList.filter(todo => todo.completed === false))
-        localStorage.setItem("todos", JSON.stringify(newList))
+        const render = newList.filter(todo => todo.completed === false)
+        setTodos(render)
+        localStorage.setItem("todos", JSON.stringify(render))
 
     }
 
